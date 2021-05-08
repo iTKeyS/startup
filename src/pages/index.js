@@ -22,11 +22,11 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Developing a new business is never easy, but Startup is here to help"
-        paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
+        title="+7 (999) 123-45-67"
+        paragraph="Развитие нового бизнеса никогда не бывает легким, но стартап всегда готов помочь."
       >
         <Link to="perks" smooth={true} duration={500}>
-          <Button label="Tell Me More" cta="Tell Me More!" />
+          <Button label="Tell Me More" cta="Схема" />
         </Link>
       </TextBlock>
       <TextBlockImg
@@ -39,27 +39,27 @@ const HomePage = () => {
         <div className="flex-container trio-block">
           <Perk
             img={perk1Img}
-            alt="Super fast speed increases"
-            title="Speedy"
-            content="Super-fast response times ensure your business is not affected"
+            alt="Сверхбыстрая скорость увеличивается"
+            title="Быстро"
+            content="Сверхбыстрое время отклика гарантирует, что ваш бизнес не пострадает"
           />
           <Perk
             img={perk2Img}
-            alt="Great savings to be made"
-            title="Affordable"
-            content="A choice of packages to suit every business type and size"
+            alt="Будет большая экономия"
+            title="Доступно"
+            content="Выбор пакетов для любого типа и размера бизнеса"
           />
           <Perk
             img={perk3Img}
-            alt="Super fast speed increases"
-            title="Friendly"
-            content="Advisors who are available 24/7, all with exprt knowledge"
+            alt="Сверхбыстрая скорость увеличивается"
+            title="Дружелюбный"
+            content="Консультанты, которые доступны 24/7, все со специальными знаниями"
           />
         </div>
       </TextBlockImg>
       <Packages
-        title="Our Packages"
-        para="Choose the perfect solution for you. With benefits to suit all budgets Startup can offer amazing value and expert advice"
+        title="Наши пакеты"
+        para="Выберите идеальное решение для вас. Преимущества для любого бюджета Стартап может предложить удивительную ценность и советы экспертов."
       >
         <IconContext.Provider
           value={{

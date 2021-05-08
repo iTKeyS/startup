@@ -18,7 +18,7 @@ const Contact = ({ title, subtitle, id }) => {
               autoComplete="off"
             />
             <label className="label-name" for="name">
-              <span className="content-name">Name</span>
+              <span className="content-name">Имя</span>
             </label>
           </div>
 
@@ -36,6 +36,19 @@ const Contact = ({ title, subtitle, id }) => {
           </div>
 
           <div className="input-area">
+            <input
+              type="tel"
+              name="tel"
+              aria-label="tel"
+              required
+              autoComplete="off"
+            />
+            <label className="label-name" for="tel">
+              <span className="content-name">Телефон</span>
+            </label>
+          </div>
+
+          <div className="input-area">
             <textarea
               type="text"
               name="message"
@@ -45,12 +58,12 @@ const Contact = ({ title, subtitle, id }) => {
               aria-label="Message"
             />
             <label className="label-name" for="message">
-              <span className="content-name">Message</span>
+              <span className="content-name">Сообщение</span>
             </label>
           </div>
 
           <div className="input-area button-area">
-            <Button label="Send Contact Form" cta="Send" type="submit" />
+            <Button label="Send Contact Form" cta="Отправить" type="submit" />
           </div>
         </form>
       </div>

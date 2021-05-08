@@ -5,19 +5,19 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa"
 export const mainMenuItems = [
   {
     path: "/",
-    title: "home",
+    title: "Главная",
   },
   {
     path: "/about",
-    title: "about",
+    title: "О компании",
   },
   {
     path: "/packages",
-    title: "packages",
+    title: "Предложение",
   },
   {
     path: "/contact",
-    title: "contact",
+    title: "Контакты",
   },
 ]
 
